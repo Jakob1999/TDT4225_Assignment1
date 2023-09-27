@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grades:Exams
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:Grades="Grades.com"
+    ExamId="123"
+    Year="2023"/>

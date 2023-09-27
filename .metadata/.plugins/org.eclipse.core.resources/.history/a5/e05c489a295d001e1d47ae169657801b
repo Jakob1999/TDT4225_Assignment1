@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grades:Course
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:Grades="Grades.com"
+    CourseName="ITGK"
+    CourseCode="TDT4110"
+    StudyPoints="7.5"
+    Level="Low"
+    Semester="Høst"
+    Language="English"
+    LearningOutcome="Python"/>

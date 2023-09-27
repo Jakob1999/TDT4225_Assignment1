@@ -1,0 +1,11 @@
+Path,Lines of code,Lines of code generated,Lines of user code, Percentage of generated code
+/emf,66,66,0,"100,00"
+/emf/.settings,2,2,0,"100,00"
+/emf/META-INF,16,16,0,"100,00"
+/emf/bin/Courses,68,68,0,"100,00"
+/emf/bin/Courses/impl,379,379,0,"100,00"
+/emf/bin/Courses/util,63,63,0,"100,00"
+/emf/model,88,88,0,"100,00"
+/emf/src/Courses,1705,1705,0,"100,00"
+/emf/src/Courses/impl,2422,2422,0,"100,00"
+/emf/src/Courses/util,347,347,0,"100,00"

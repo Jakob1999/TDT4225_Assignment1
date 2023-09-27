@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/emf/src" modelPluginID="emf" modelName="My" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>../../Test/My.ecore</foreignModel>
+  <genPackages prefix="Courses" disposableProviderFactory="true" ecorePackage="My.ecore#/">
+    <genClasses ecoreClass="My.ecore#//Course">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/CourseName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/CourseCode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/StudyPoints"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/Level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/Semester"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/Language"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My.ecore#//Course/ExamId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/CourseContent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Course/LearningOutcome"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My.ecore#//Course/LinkId"/>
+    </genClasses>
+    <genClasses ecoreClass="My.ecore#//Exams">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Exams/ExamId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Exams/Year"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Exams/Cont"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference My.ecore#//Exams/GradeId"/>
+    </genClasses>
+    <genClasses ecoreClass="My.ecore#//Grades">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Grades/GradeId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Grades/A"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Grades/B"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Grades/C"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Grades/D"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Grades/E"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Grades/F"/>
+    </genClasses>
+    <genClasses ecoreClass="My.ecore#//Links">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Links/LinkId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Links/CoursePage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Links/CourseQuality"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute My.ecore#//Links/StudentEvaluation"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

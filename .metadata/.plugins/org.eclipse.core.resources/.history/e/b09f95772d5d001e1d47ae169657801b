@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grades:Grades
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:Grades="Grades.com"
+    GradeId="1"
+    A="23" B="34"
+    C="45" D="34"
+    E="32" F="12"/>

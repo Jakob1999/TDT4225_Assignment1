@@ -1,0 +1,13 @@
+package edu.ntnu.mycode;
+
+public class TestingEMF {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public static void main(String[] args) {
+			Course course = CoursesFactory.eINSTANCE.createCourse();
+			System.out.println("heisann "+course.getLanguage());
+		}
+	}
+
+}

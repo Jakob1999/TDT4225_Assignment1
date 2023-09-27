@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grades:Links
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:Grades="Grades.com"
+    LinkId="1"
+    CoursePage="something"
+    CourseQuality="Very goood"
+    StudentEvaluation="I like this course"/>
