@@ -14,7 +14,7 @@
   <ExamId ExamId="1"
       Year="2023">
     <GradeId
-        GradeId="1"
+        GradeId="2"
         A="12"
         B="34"
         C="44"
@@ -22,7 +22,7 @@
         E="21"
         F="19"/>
   </ExamId>
-  <LinkId LinkId="1"
+  <LinkId LinkId="3"
       CoursePage="www.itgk.nothing"
       CourseQuality="Good"
       StudentEvaluation="I like it"/>

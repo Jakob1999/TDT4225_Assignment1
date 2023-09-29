@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grades:Course
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:Grades="Grades.com"
+    CourseName="ITGK"
+    CourseCode="TDT4110"
+    StudyPoints="7.5"
+    Level="Low"
+    Semester="Springg"
+    Language="English"
+    CourseContent="This is a cool subject containing IT stuff!"
+    LearningOutcome="Python">
+  <ExamId ExamId="1"
+      Year="2023">
+    <GradeId
+        GradeId="2"
+        A="12"
+        B="34"
+        C="44"
+        D="32"
+        E="21"
+        F="19"/>
+  </ExamId>
+  <LinkId LinkId="1"
+      CoursePage="www.itgk.nothing"
+      CourseQuality="Good"
+      StudentEvaluation="I like it"/>
+</Grades:Course>

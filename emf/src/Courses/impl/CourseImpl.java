@@ -343,24 +343,10 @@ public class CourseImpl extends MinimalEObjectImpl.Container implements Course {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	/* -----CONSTRAINT-----
-	 * 
-	 * If the language of the course is in english, the registered semester can only be Autumn or Spring.
-	 * 
-	 * However, if the registerd language is Norwegian, it can only be Høst or Vår.
-	 * 
-	 */
+	
 	public void setSemester(String newSemester) {
-		String oldSemester = SEMESTER_EDEFAULT;
-		if (newSemester.equals("Autumn") || newSemester.equals("Spring")) {
-			oldSemester = semester;
-			semester = newSemester;
-		}
-		else {
-			System.out.println("Invalid semester");
-		}
-		
-		
+		String oldSemester = semester;
+		semester = newSemester;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, CoursesPackage.COURSE__SEMESTER, oldSemester, semester));
 	}

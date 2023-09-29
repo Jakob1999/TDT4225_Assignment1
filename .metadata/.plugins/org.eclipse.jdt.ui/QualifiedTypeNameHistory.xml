@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="Courses.impl.CoursesFactoryImpl"/>
     <fullyQualifiedTypeName name="Courses.CoursesFactory"/>
     <fullyQualifiedTypeName name="Courses.Course"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.common.util.Diagnostic"/>
 </qualifiedTypeNameHistroy>

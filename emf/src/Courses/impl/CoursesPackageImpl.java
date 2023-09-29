@@ -9,11 +9,13 @@ import Courses.Exams;
 import Courses.Grades;
 import Courses.Links;
 
+import Courses.util.CoursesValidator;
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
+import org.eclipse.emf.ecore.EValidator;
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
 /**
@@ -102,6 +104,15 @@ public class CoursesPackageImpl extends EPackageImpl implements CoursesPackage {
 
 		// Initialize created meta-data
 		theCoursesPackage.initializePackageContents();
+
+		// Register package validator
+		EValidator.Registry.INSTANCE.put
+			(theCoursesPackage,
+			 new EValidator.Descriptor() {
+				 public EValidator getEValidator() {
+					 return CoursesValidator.INSTANCE;
+				 }
+			 });
 
 		// Mark meta-data to indicate it can't be changed
 		theCoursesPackage.freeze();
@@ -499,6 +510,26 @@ public class CoursesPackageImpl extends EPackageImpl implements CoursesPackage {
 
 		// Create resource
 		createResource(eNS_URI);
+
+		// Create annotations
+		// http://www.eclipse.org/emf/2002/Ecore
+		createEcoreAnnotations();
+	}
+
+	/**
+	 * Initializes the annotations for <b>http://www.eclipse.org/emf/2002/Ecore</b>.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void createEcoreAnnotations() {
+		String source = "http://www.eclipse.org/emf/2002/Ecore";
+		addAnnotation
+		  (courseEClass,
+		   source,
+		   new String[] {
+			   "constraints", "semesterName"
+		   });
 	}
 
 } //CoursesPackageImpl

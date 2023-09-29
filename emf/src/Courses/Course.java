@@ -28,7 +28,7 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  *
  * @see Courses.CoursesPackage#getCourse()
- * @model
+ * @model annotation="http://www.eclipse.org/emf/2002/Ecore constraints='semesterName'"
  * @generated
  */
 public interface Course extends EObject {
