@@ -21,22 +21,22 @@ See our ecore model here:
 ## Example instance 
 
 Lies in "emf/model/Course.xmi", but we also provide it here:
-
-> <Grades:Course
->  xmi:version="2.0"
->  xmlns:xmi="http://www.omg.org/XMI"
-   xmlns:Grades="Grades.com"
-   CourseName="ITGK"
-   CourseCode="TDT4110"
-   StudyPoints="7.5"
-   Level="Low"
-   Semester="Spring"
-   Language="English"
-   CourseContent="This is a cool subject containing IT stuff!"
-   LearningOutcome="Python">
+```
+<Grades:Course
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:Grades="Grades.com"
+    CourseName="ITGK"
+    CourseCode="TDT4110"
+    StudyPoints="7.5"
+    Level="Low"
+    Semester="Spring"
+    Language="English"
+    CourseContent="This is a cool subject containing IT stuff!"
+    LearningOutcome="Python">
   <ExamId ExamId="1"
       Year="2023">
-   <GradeId
+    <GradeId
         GradeId="1"
         A="12"
         B="34"
@@ -50,3 +50,4 @@ Lies in "emf/model/Course.xmi", but we also provide it here:
       CourseQuality="Good"
       StudentEvaluation="I like it"/>
 </Grades:Course>
+```
