@@ -19,6 +19,6 @@ We based our model on the page [grades.no](https://grades.no/), which is a page 
 ## Ecore modelling
 
 Our model has four entities, with realtions between them and where each attribute has a type, connected to the type of data that is supposed to be presented there.  
-See our ecore model here: 
+[See our ecore model here](ECoreModel.png)
 
 
