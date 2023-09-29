@@ -1,4 +1,4 @@
-# TDT4225_Assignment1
+# TDT4250_Assignment1
 
 ## Repo strukture and content
 
@@ -10,12 +10,12 @@ The constraint made was that semester must be a string that is either equal to Â
 
 ## Inspiration 
 
-We based our model on the page [grades.no](https://grades.no/), which is a page for looking at courses at NTNU, see the grade distribution for course and general information about it. It has a good number of concepts, and the concepts have various relations between them. Se the model  under. It has fixed structures, like the layout of the data and template of the page. But it also has variable structure, which is the specific information in the data, like
-course name, semester, etc. 
+We based our model on the page [grades.no](https://grades.no/), which is a page for looking at courses at NTNU, see the grade distribution for course and general information about it. It has a good number of concepts, and the concepts have various relations between them. Se the model  under. It has fixed structures, like the layout of the data and template of the page. But it also has variable structure, which is the specific information in the data, like course name, semester, etc. 
+[See screenshot here](grades.png)
 
 
 ## Ecore modelling
-
+See our ecore model here: 
 
 
 ## Example instance 
