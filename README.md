@@ -2,9 +2,9 @@
 
 ## Repo strukture and content
 
-The instance made lies in "emf/model/Course.xmi". 
+[The instance made lies here](emf/model/Course.xmi). 
 The constraint made was that semester must be a string that is either equal to ´spring´ or 
-´autumn´. The file path is "emf/src/courses.util/CoursesValidator.java". 
+´autumn´. [Find the constraint here](emf/src/courses.util/CoursesValidator.java). 
 
 
 
@@ -21,9 +21,10 @@ See our ecore model here:
 ## Example instance 
 
 Lies in "emf/model/Course.xmi", but we also provide it here:
- ´<Grades:Course
-   xmi:version="2.0"
-   xmlns:xmi="http://www.omg.org/XMI"
+
+> <Grades:Course
+>  xmi:version="2.0"
+>  xmlns:xmi="http://www.omg.org/XMI"
    xmlns:Grades="Grades.com"
    CourseName="ITGK"
    CourseCode="TDT4110"
@@ -48,4 +49,4 @@ Lies in "emf/model/Course.xmi", but we also provide it here:
       CoursePage="www.itgk.nothing"
       CourseQuality="Good"
       StudentEvaluation="I like it"/>
-</Grades:Course>´
+</Grades:Course>
